@@ -41,6 +41,9 @@
             pool_size => 10
         }
     }},
+    {shigoto, [
+        {pool, default}
+    ]},
     {asobi, [
         {game_modes, #{
             ~"arena" => asobi_arena_game
